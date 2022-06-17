@@ -14,12 +14,16 @@
 
 /* Custom style goes here */
 /* HERO - start */
-.main-content {
+
+
+.column {
+    margin-top: 80px;
+    margin-left: 10%;
     display: flex;
-    flex-direction: row;
-    gap: 30px;
-    /* align-items: space-between; */
-    /* width: 80%; */
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 80%;
 }
 .head{
     align-self: center;
@@ -30,10 +34,7 @@
     font-size: 40px;
 
 }
-.column {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 30px;
+footer{
+    color: #9CDCCC;
     width: 80%;
 }
