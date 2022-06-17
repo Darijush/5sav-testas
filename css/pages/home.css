@@ -16,7 +16,8 @@
 /* HERO - start */
 .main-content {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    gap: 30px;
     /* align-items: space-between; */
     /* width: 80%; */
 }
